@@ -347,6 +347,12 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libjson
 	
+#FM
+PRODUCT_PACKAGES += \
+    FM2 \
+    libqcomfm_jni \
+    qcom.fmradio
+
 # Ramdisk
 PRODUCT_PACKAGES += \
     fstab.qcom \
