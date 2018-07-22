@@ -21,8 +21,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from whyred device
 $(call inherit-product, device/xiaomi/whyred/device.mk)
 
-# Inherit some common Bootleggers stuff.
-$(call inherit-product, vendor/liquid/config/common.mk)
+# Inherit some common Liquid stuff.
+$(call inherit-product, vendor/liquid/config/full_common_phone.mk)
 
 # Device identifier. This must come after all inclusions
 TARGET_VENDOR := Xiaomi
