@@ -294,3 +294,5 @@ sys.usb.rmnet.func.name=rmnet_bam
 PRODUCT_PROPERTY_OVERRIDES += \
 wifi.interface=wlan0
 
+# Camera2api
+persist.camera.HAL3.enabled=1
